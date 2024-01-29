@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "264901290549",
+    "project_id": "my-practice-148f1",
+    "storage_bucket": "my-practice-148f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264901290549:android:f80c5b0b6c836e3ad89f7c",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth_otp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpJRwo1RSPg8W5K9TIkl5bSa2J4YciLfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

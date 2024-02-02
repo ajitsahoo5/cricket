@@ -1,7 +1,7 @@
 import 'package:firebase_auth_otp/firebase_options.dart';
 import 'package:firebase_auth_otp/screens/home.dart';
-import 'package:firebase_auth_otp/screens/otp.dart';
-import 'package:firebase_auth_otp/screens/phone.dart';
+import 'package:firebase_auth_otp/auth/ui/otp.dart';
+import 'package:firebase_auth_otp/auth/ui/phone.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ void main() async {
     routes: {
       'phone': (context) => PhonePage(),
       'otp': (context) => OtpPage(),
-      'home':(context)=>MyHome(),
+      'home': (context) => MyHome(),
     },
   ));
 }
@@ -30,7 +30,7 @@ class App extends StatelessWidget {
       routes: {
         'phone': (context) => PhonePage(),
         'otp': (context) => OtpPage(),
-        'home':(context)=>MyHome(),
+        'home': (context) => MyHome(),
       },
     );
   }

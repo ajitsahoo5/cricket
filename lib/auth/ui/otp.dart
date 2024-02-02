@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_auth_otp/screens/phone.dart';
+import 'package:firebase_auth_otp/auth/ui/phone.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 
@@ -102,8 +102,7 @@ class _OtpPageState extends State<OtpPage> {
 
                     // Sign the user in (or link) with the credential
                     await auth.signInWithCredential(credential);
-                   // Navigator.pushNamed(context, home)=>MyHome();
-                   
+                    // Navigator.pushNamed(context, home)=>MyHome();
                   },
                   child: Text(
                     'Verify Phone Number',
